@@ -1,0 +1,1 @@
+This directory contains practice task on log parsing
