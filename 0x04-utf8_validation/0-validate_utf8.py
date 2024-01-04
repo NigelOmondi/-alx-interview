@@ -1,15 +1,10 @@
-#!/usr/bin/env python3
-"""
-UTF-8 Validation
+#!/usr/bin/python3
+"""UTF-8 validation module.
 """
 
 
 def validUTF8(data):
-    """
-    Determine if a given data set represents a valid UTF-8 encoding.
-
-    :param data: List of integers, each representing one byte of data
-    :return: True if data is a valid UTF-8 encoding, else False
+    """Checks if a list of integers are valid UTF-8 codepoints.
     """
     skip = 0
     n = len(data)
